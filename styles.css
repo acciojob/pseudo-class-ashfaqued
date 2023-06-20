@@ -1,4 +1,7 @@
 /*  your css code here. If applicable */
+div{
+	color:rgb(0,0,0);
+}
 span{
 	color:rgb(255, 0, 0);
 }
