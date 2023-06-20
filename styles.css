@@ -1,7 +1,15 @@
 /*  your css code here. If applicable */
-div{
-	color:rgb(0,0,0);
+div::before{
+	content:"Before Element";
+	color:rgb(255,0,0);
+	font-weight:bold;
+	font-size:larger;
+	
 }
-span{
+div::after{
+	content:"After Element";
 	color:rgb(255, 0, 0);
+	font-weight:bold;
+	font-size:larger;
+		
 }
